@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantomweather="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/currentLocation"
+        android:icon="@drawable/icon_location"
+        android:title="@string/update_location"
+        phantomweather:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"/>
+
+    <item
+        android:id="@+id/employees"
+        android:icon="@drawable/notification_template_icon_bg"
+        android:title="@string/employee"/>
+</menu>
